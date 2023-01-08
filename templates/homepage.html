@@ -10,8 +10,8 @@
 <ul class ="list-group">
     {% for headline in headlines %}
         <!--img src="{{ headline.urlToImage }}" alt="{{ headline.title }}" width="100" height="100"-->
-        <li><a  href="{{ headline.url }}" 
-                title="{{ headline.description }}" 
+        <li><a  href="{{ headline.url }}"
+                title="{{ headline.description }}"
                 class="list-group-item">{{ headline.title }}</a></li>
     {% endfor %}
 </ul>
